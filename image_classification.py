@@ -50,7 +50,7 @@ history = model.fit(X_train, y_train,
 # Evaluate Model
 
 test_loss, test_acc = model.evaluate(X_test, y_test)
-#print("Test Accuracy:", test_acc)
+print("Test Accuracy:", test_acc)
 
 # Predict User Image
 
@@ -70,4 +70,5 @@ def predict_user_image(img_path):
 
 user_image_path = input("Enter image path: ")
 predict_user_image(user_image_path)
+
 
